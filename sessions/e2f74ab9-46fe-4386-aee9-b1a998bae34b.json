@@ -1,0 +1,53 @@
+{
+  "session_id": "e2f74ab9-46fe-4386-aee9-b1a998bae34b",
+  "status": "completed",
+  "cv_data": {
+    "filename": "Mohame_Salah_CV.docx",
+    "content": "MOHAMED SALAH SHAHIN\nFlutter Developer | Expert in Flutter & Dart\nGitHub: https://github.com/shaheen200 | Email: mohamedbedosalah.2002@gmail.com\n\nPROFESSIONAL SUMMARY \nResults-driven Flutter Developer with strong expertise in building and deploying high-quality cross-platform mobile applications. Proficient in Flutter and Dart, with solid experience in state management, API integration, and performance optimization. Adept at translating business requirements into innovative, user-friendly, and scalable mobile solutions. Passionate about delivering exceptional user experiences and staying updated with the latest mobile development trends.\nCORE COMPETENCIES \nFlutter & Dart Development (Cross-Platform Mobile Apps)\nState Management (Provider, Riverpod, Bloc, GetX)\nUI/UX Design Implementation (Material Design, Cupertino Widgets)\nAPI Integration (RESTful APIs, GraphQL, Firebase)\nDatabase Management (SQLite, Hive, Firebase Firestore)\nPerformance Optimization (App Speed, Memory Usage, Responsiveness)\nVersion Control & CI/CD (Git, GitHub Actions, Bitbucket Pipelines)\nDeployment & Publishing (Google Play Store, Apple App Store)\n\nEDUCATION \nBachelor of Computer Science, Menoufia University\nSpecialization: Software Engineering (Flutter Development Focus) | GPA: 2.71/4.0 (Good)\nExpected Graduation: January 2026\nCERTIFICATIONS & TRAINING \n• AWS Academy Graduate – Cloud Foundations\nAWS Academy | Issued: March 2025 | Duration: 20 Hours\nKEY PROJECTS \nCar Rental System – Cross-platform mobile application (Android & iOS) for car rental services, integrated with a web-based admin dashboard for fleet and booking management.\nRazan Trading Platform – E-commerce mobile application with inventory tracking, order management, and secure payment gateway integration.\nPlanet Online Store – Full-featured online shopping platform with responsive design, product catalog, and user-friendly checkout process.\nSmart Networks Management System – Web and mobile solution for monitoring, configuring, and managing network infrastructure efficiently.\n\nTECHNICAL SKILLS \nProgramming: Dart, Java, Kotlin (basic)\nFrameworks & Libraries: Flutter, Provider, Riverpod, Bloc, GetX\nTools & Platforms: Android Studio, Visual Studio Code, Firebase, Git, GitHub, CI/CD Pipelines\nAPIs & Backend Integration: RESTful APIs, GraphQL, Firebase Cloud Functions\nDatabases: SQLite, Hive, Firebase Firestore, MySQL\nUI/UX: Material Design, Cupertino Widgets, Responsive Design\n \n\nSOFT SKILLS \nLeadership & Team Management\nProblem-Solving & Critical Thinking\nAgile & Scrum Team Collaboration\nEffective Communication & Interpersonal Skills\nTime Management & Task Prioritization\n\nACHIEVEMENTS\n• Increased mobile app performance by up to 40% through optimization techniques.\n• Delivered 5+ production-grade apps with 10,000+ total downloads.\n• Implemented CI/CD pipelines reducing release time by 50%.\n• Recognized as AWS Academy Graduate – Cloud Foundations.\nLANGUAGES \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Leadership",
+      "Agile",
+      "Git",
+      "Java",
+      "Aws",
+      "Sql",
+      "Mysql",
+      "Communication",
+      "Time Management",
+      "Scrum"
+    ],
+    "education": [
+      "Bachelor of Computer Science, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• AWS Academy Graduate – Cloud Foundations",
+      "AWS Academy | Issued: March 2025 | Duration: 20 Hours",
+      "• Recognized as AWS Academy Graduate – Cloud Foundations."
+    ],
+    "experience": [
+      "Flutter Developer | Expert in Flutter & Dart",
+      "Results-driven Flutter Developer with strong expertise in building and deploying high-quality cross-platform mobile applications. Proficient in Flutter and Dart, with solid experience in state management, API integration, and performance optimization. Adept at translating business requirements into innovative, user-friendly, and scalable mobile solutions. Passionate about delivering exceptional user experiences and staying updated with the latest mobile development trends.",
+      "Specialization: Software Engineering (Flutter Development Focus) | GPA: 2.71/4.0 (Good)",
+      "Smart Networks Management System – Web and mobile solution for monitoring, configuring, and managing network infrastructure efficiently.",
+      "Frameworks & Libraries: Flutter, Provider, Riverpod, Bloc, GetX",
+      "Leadership & Team Management",
+      "• Increased mobile app performance by up to 40% through optimization techniques."
+    ],
+    "contact_info": {
+      "email": "mohamedbedosalah.2002@gmail.com"
+    },
+    "parsed_at": "2025-08-13T20:28:34.171090"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Let's get started with the interview. I'd like to dive deeper into your experience as a Flutter developer. Can you elaborate on your approach to state management in Flutter applications, and how do you ensure that it aligns with the business requirements?",
+      "timestamp": "2025-08-13T20:28:46.199355",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-13T20:28:38.747902",
+  "end_time": "2025-08-13T20:33:45.726978",
+  "duration_seconds": 306,
+  "max_duration_seconds": 900
+}

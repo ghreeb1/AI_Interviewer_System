@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="#2563eb" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+    <title>{% block title %}SMART VIEW{% endblock %}</title>
+    
+		<link rel="icon" href="/static/img/smart_view_logo.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/static/img/smart_view_logo.svg">
+		
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Base CSS -->
+    <link href="/static/css/base.css" rel="stylesheet">
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+		<a href="#main-content" class="skip-link">Skip to content</a>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/static/img/smart_view_logo.svg" alt="SMART VIEW" class="logo-img">
+                    <span>SMART VIEW</span>
+                </div>
+                <nav class="nav">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/ats" class="nav-link">ATS</a>
+                    <a href="#" class="nav-link" id="system-status-btn">System Status</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+		<main class="main" id="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AI Interviewer System. Local-first interview platform.</p>
+        </div>
+    </footer>
+
+    <!-- System Status Modal -->
+    <div id="system-status-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>System Status</h3>
+                <button class="modal-close" id="close-status-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="system-status-content">
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Checking system status...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notification-container"></div>
+
+    <!-- Base JavaScript -->
+    <script src="/static/js/base.js"></script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
+

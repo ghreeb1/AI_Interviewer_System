@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% block title %}Interview Session - AI Interviewer{% endblock %}
+
+{% block extra_css %}
+<link href="/static/css/interview.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="interview-container">
+    <!-- Interview Header -->
+    <div class="interview-header">
+        <div class="session-info">
+            <h1>Interactive Interview</h1>
+            <div class="session-id">Session: {{ session_id }}</div>
+        </div>
+        <div class="header-right">
+            <div class="header-meta">
+                <div class="timer" id="timer">15:00</div>
+                <div class="timer-label">Time Remaining</div>
+                <div class="stage" id="stage-label">Warm-up Questions</div>
+            </div>
+            <button class="btn btn-danger" id="end-interview">
+                <i class="fas fa-stop"></i>
+                <span>End Interview</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Interview Area -->
+    <div class="interview-main">
+        <!-- Chat Section (Left) -->
+        <div class="chat-section">
+            <div class="chat-header">
+                <h3>Interview Conversation</h3>
+                <div class="chat-status" id="chat-status">
+                    <i class="fas fa-circle"></i>
+                    <span>Connected</span>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="message interviewer-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-header">
+                            <span class="message-sender">AI Interviewer</span>
+                            <span class="message-time">Just now</span>
+                        </div>
+                        <div class="message-text" id="initial-message">
+                            Initializing interview session...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Controls -->
+            <div class="voice-controls">
+                <button class="btn btn-primary voice-btn" id="voice-btn">
+                    <i class="fas fa-microphone"></i>
+                    <span>Hold to Speak</span>
+                </button>
+                <div class="voice-status" id="voice-status">
+                    <span>Ready to listen</span>
+                </div>
+            </div>
+
+            <!-- Text Input (Fallback) -->
+            <div class="text-input-section" id="text-input-section" style="display: none;">
+                <div class="input-group">
+                    <input type="text" id="text-input" placeholder="Type your response..." maxlength="500">
+                    <button class="btn btn-primary" id="send-text-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Panel (Right) -->
+        <div class="status-panel">
+            <!-- Camera Feed Card -->
+            <div class="panel-card">
+                <div class="panel-header">
+                    <h4>Camera Feed</h4>
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="camera-feed">
+                    <video id="webcam-video" autoplay muted playsinline></video>
+                </div>
+            </div>
+
+            <!-- Behavior Analysis Card -->
+            <div class="panel-card">
+                <div class="panel-header">
+                    <h4>Behavior Analysis</h4>
+                </div>
+                <div class="progress-metric">
+                    <div class="metric-row">
+                        <span>Engagement Level</span>
+                        <span id="engagement-percent">0%</span>
+                    </div>
+                    <div class="progress">
+                        <div id="engagement-bar" class="progress-fill engagement" style="width:0%"></div>
+                    </div>
+                </div>
+                <div class="progress-metric">
+                    <div class="metric-row">
+                        <span>Confidence Level</span>
+                        <span id="confidence-percent">0%</span>
+                    </div>
+                    <div class="progress">
+                        <div id="confidence-bar" class="progress-fill confidence" style="width:0%"></div>
+                    </div>
+                </div>
+                <div class="progress-metric">
+                    <div class="metric-row">
+                        <span>Stress Level</span>
+                        <span id="stress-percent">0%</span>
+                    </div>
+                    <div class="progress">
+                        <div id="stress-bar" class="progress-fill stress" style="width:0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audio Controls Card -->
+            <div class="panel-card">
+                <div class="panel-header">
+                    <h4>Audio Controls</h4>
+                </div>
+                <div class="audio-controls">
+                    <div class="audio-status">
+                        <i class="fas fa-volume-up"></i>
+                        <span id="audio-status">On</span>
+                    </div>
+                    <div class="audio-actions">
+                        <button class="btn btn-secondary" id="toggle-mic">
+                            <i class="fas fa-microphone"></i>
+                            <span>Mic On</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+    </div>
+
+    <!-- Interview Controls -->
+    <div class="interview-controls">
+        <button class="btn btn-secondary" id="toggle-text-input">
+            <i class="fas fa-keyboard"></i>
+            <span>Use Text Input</span>
+        </button>
+        <button class="btn btn-warning" id="pause-interview">
+            <i class="fas fa-pause"></i>
+            <span>Pause</span>
+        </button>
+        
+    </div>
+</div>
+
+<!-- Loading Modal -->
+<div id="loading-modal" class="modal">
+    <div class="modal-content">
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span id="loading-text">Initializing interview...</span>
+        </div>
+    </div>
+</div>
+
+<!-- End Interview Confirmation Modal -->
+<div id="end-interview-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>End Interview</h3>
+        </div>
+        <div class="modal-body">
+            <p>Are you sure you want to end the interview? This action cannot be undone.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" id="cancel-end">Cancel</button>
+            <button class="btn btn-danger" id="confirm-end">End Interview</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="/static/js/interview.js"></script>
+{% endblock %}
+

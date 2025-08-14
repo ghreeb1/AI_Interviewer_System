@@ -1,0 +1,492 @@
+/* Interview Page Styles */
+
+.interview-container {
+    max-width: min(96vw, 1500px);
+    margin: 0 auto;
+    padding: 0 var(--spacing-4);
+}
+
+/* Interview Header */
+.interview-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-6);
+    margin-bottom: var(--spacing-6);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.session-info h1 {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.session-id {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    font-family: monospace;
+}
+
+.timer-section {
+    text-align: center;
+}
+
+/* Header right area with timer/stage and end button */
+.header-right { display:flex; align-items:center; gap: var(--spacing-4); }
+.header-meta { text-align:right; }
+.stage { font-size: var(--font-size-sm); color: var(--text-secondary); }
+
+.timer {
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    color: var(--primary-color);
+    font-family: monospace;
+    margin-bottom: var(--spacing-2);
+}
+
+.timer.warning {
+    color: var(--warning-color);
+    animation: pulse 1s infinite;
+}
+
+.timer.danger {
+    color: var(--danger-color);
+    animation: pulse 0.5s infinite;
+}
+
+.timer-label {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Main Interview Area */
+.interview-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 360px; /* Chat large on left, compact right panel */
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-6);
+}
+
+/* Video Section */
+/* Right-side status panel */
+.status-panel { display: flex; flex-direction: column; gap: var(--spacing-4); }
+
+.panel-card {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-4);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.panel-header { display:flex; align-items:center; justify-content: space-between; margin-bottom: var(--spacing-3); }
+.panel-header h4 { margin: 0; }
+
+.camera-feed {
+    position: relative;
+    background: #000;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    height: 140px;
+}
+
+.camera-feed video { width: 100%; height: 100%; object-fit: cover; display:block; }
+
+.video-container {
+    position: relative;
+    background-color: #000;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    margin-bottom: var(--spacing-4);
+}
+
+/* progress bars */
+.progress-metric { margin-bottom: var(--spacing-3); }
+.metric-row { display:flex; align-items:center; justify-content: space-between; font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: 6px; }
+.progress { position: relative; width: 100%; height: 8px; border-radius: 999px; background: var(--background-color); border: 1px solid var(--border-color); overflow: hidden; }
+.progress-fill { height: 100%; border-radius: 999px; transition: width 300ms ease; }
+.progress-fill.engagement { background: #22c55e; }
+.progress-fill.confidence { background: #3b82f6; }
+.progress-fill.stress { background: #f59e0b; }
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.recording-indicator {
+    position: absolute;
+    top: var(--spacing-4);
+    left: var(--spacing-4);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    background-color: rgba(239, 68, 68, 0.9);
+    color: white;
+    padding: var(--spacing-2) var(--spacing-3);
+    border-radius: var(--radius-lg);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.recording-indicator i {
+    animation: pulse 1s infinite;
+}
+
+/* Legacy overlay metrics container removed from overlay; now rendered below video */
+/* old behavior metrics grid no longer used */
+.behavior-metrics { display: none; }
+
+.metric {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    padding: var(--spacing-3);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.metric i {
+    color: var(--primary-color);
+}
+
+.metric-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-3);
+    width: 100%;
+}
+
+.metric-label {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.metric-value {
+    font-weight: 700;
+}
+
+.camera-controls {
+    display: flex;
+    gap: var(--spacing-3);
+    justify-content: center;
+}
+
+.audio-controls-hint {
+    margin-top: var(--spacing-3);
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.camera-controls .btn {
+    flex: 1;
+}
+
+.camera-controls .btn.active {
+    background-color: var(--success-color);
+}
+
+.camera-controls .btn.inactive {
+    background-color: var(--danger-color);
+}
+
+/* Chat Section */
+.chat-section {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    height: min(72vh, 680px);
+}
+
+/* Analytics panel below the video */
+/* legacy analytics panel removed in favor of panel-cards */
+.analytics-panel { display: none; }
+
+.analytics-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-3);
+}
+
+.analytics-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-3);
+}
+
+.btn-group { display: inline-flex; gap: 6px; }
+.btn-group .btn { min-width: 80px; }
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-4);
+    padding-bottom: var(--spacing-4);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chat-header h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.chat-status {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--font-size-sm);
+    color: var(--success-color);
+    font-weight: 500;
+}
+
+.chat-status i {
+    animation: pulse 2s infinite;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--spacing-2);
+    margin-bottom: var(--spacing-4);
+    scroll-behavior: smooth;
+}
+
+.message {
+    display: flex;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-4);
+}
+
+.message-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-lg);
+    flex-shrink: 0;
+}
+
+.interviewer-message .message-avatar {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.candidate-message .message-avatar {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.message-content {
+    flex: 1;
+    min-width: 0;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-3) var(--spacing-4);
+    box-shadow: var(--shadow-sm);
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-2);
+}
+
+.message-sender {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+}
+
+.message-time {
+    font-size: var(--font-size-xs);
+    color: var(--text-muted);
+}
+
+.message-text {
+    color: var(--text-secondary);
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Chat bubbles: differentiate interviewer and candidate */
+.interviewer-message .message-content { background-color: #ffffff; }
+.candidate-message .message-content { background-color: #ffffff; }
+
+/* Voice Controls */
+.voice-controls {
+    text-align: center;
+    margin-bottom: var(--spacing-4);
+}
+
+.voice-btn {
+    font-size: var(--font-size-lg);
+    padding: var(--spacing-4) var(--spacing-8);
+    border-radius: 50px;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-md);
+}
+
+.voice-btn:active {
+    transform: scale(0.95);
+    background-color: var(--success-color);
+}
+
+.voice-btn.recording { background-color: var(--danger-color); animation: pulse 1s infinite; }
+
+.voice-status {
+    margin-top: var(--spacing-3);
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Text Input Section */
+.text-input-section {
+    border-top: 1px solid var(--border-color);
+    padding-top: var(--spacing-4);
+}
+
+.input-group {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+#text-input {
+    flex: 1;
+    padding: var(--spacing-3);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    font-size: var(--font-size-base);
+    transition: border-color var(--transition-fast);
+    background: #fff;
+}
+
+#text-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Interview Controls */
+.interview-controls {
+    display: flex;
+    gap: var(--spacing-4);
+    justify-content: center;
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.interview-controls .btn { min-width: 150px; }
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .interview-main {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-4);
+    }
+    
+    .chat-section {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .interview-header {
+        flex-direction: column;
+        gap: var(--spacing-4);
+        text-align: center;
+    }
+    
+    .timer {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .video-container {
+        aspect-ratio: 4/3;
+    }
+    
+    .analytics-metrics {
+        grid-template-columns: 1fr;
+    }
+    
+    .camera-controls {
+        flex-direction: column;
+    }
+    
+    .chat-section {
+        height: 400px;
+    }
+    
+    .interview-controls {
+        flex-direction: column;
+    }
+    
+    .interview-controls .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .interview-container {
+        padding: 0 var(--spacing-2);
+    }
+    
+    .interview-header,
+    .video-section,
+    .chat-section,
+    .interview-controls {
+        padding: var(--spacing-4);
+    }
+    
+    .message {
+        gap: var(--spacing-2);
+    }
+    
+    .message-avatar {
+        width: 32px;
+        height: 32px;
+        font-size: var(--font-size-base);
+    }
+    
+    .voice-btn {
+        padding: var(--spacing-3) var(--spacing-6);
+        font-size: var(--font-size-base);
+    }
+}
+

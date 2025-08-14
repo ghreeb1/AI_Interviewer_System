@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+
+{% block title %}Interview Results - AI Interviewer{% endblock %}
+
+{% block extra_css %}
+<link href="/static/css/results.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="results-container">
+    <!-- Results Header -->
+    <div class="results-header">
+        <div class="header-content">
+            <h1>Interview Complete</h1>
+            <p class="subtitle">Here's your comprehensive interview analysis</p>
+        </div>
+        <div class="session-info">
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <span>Duration: <span id="interview-duration">--</span></span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-calendar"></i>
+                <span>Session: {{ session_id }}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading State -->
+    <div class="loading-results" id="loading-results">
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span>Generating your interview analysis...</span>
+        </div>
+    </div>
+
+    <!-- Results Content -->
+    <div class="results-content" id="results-content" style="display: none;">
+        <!-- Summary Cards -->
+        <div class="summary-cards">
+            <div class="summary-card">
+                <div class="card-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-content">
+                    <h3>CV Match Score</h3>
+                    <div class="score" id="cv-match-score">--</div>
+                    <p>Alignment between discussed topics and skills listed on your CV</p>
+                </div>
+            </div>
+            
+            <div class="summary-card">
+                <div class="card-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Eye Contact</h3>
+                    <div class="score" id="eye-contact-score">--</div>
+                    <p>Average engagement level</p>
+                </div>
+            </div>
+            
+            <div class="summary-card">
+                <div class="card-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Posture</h3>
+                    <div class="score" id="posture-score">--</div>
+                    <p>Professional presentation</p>
+                </div>
+            </div>
+            
+            <div class="summary-card">
+                <div class="card-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Responses</h3>
+                    <div class="score" id="response-count">--</div>
+                    <p>Total interview exchanges</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Analysis -->
+        <div class="analysis-sections">
+            <!-- Behavior Analysis -->
+            <div class="analysis-section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-brain"></i>
+                        Behavior Analysis
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <div class="behavior-chart">
+                        <canvas id="behavior-chart" width="400" height="200"></canvas>
+                    </div>
+                    <div class="behavior-insights" id="behavior-insights">
+                        <!-- Behavior insights will be populated here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recommendations -->
+            <div class="analysis-section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-lightbulb"></i>
+                        Recommendations
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <div class="recommendations-list" id="recommendations-list">
+                        <!-- Recommendations will be populated here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interview Transcript -->
+            <div class="analysis-section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-file-alt"></i>
+                        Interview Transcript
+                    </h2>
+                    <button class="btn btn-secondary" id="toggle-transcript">
+                        <i class="fas fa-chevron-down"></i>
+                        <span>Show Transcript</span>
+                    </button>
+                </div>
+                <div class="section-content transcript-content" id="transcript-content" style="display: none;">
+                    <div class="transcript" id="transcript">
+                        <!-- Transcript will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="btn btn-primary" id="download-report">
+                <i class="fas fa-download"></i>
+                <span>Download Report</span>
+            </button>
+            <button class="btn btn-secondary" id="new-interview">
+                <i class="fas fa-plus"></i>
+                <span>Start New Interview</span>
+            </button>
+            <button class="btn btn-danger" id="delete-session">
+                <i class="fas fa-trash"></i>
+                <span>Delete Session</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Error State -->
+    <div class="error-state" id="error-state" style="display: none;">
+        <div class="error-content">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h3>Unable to Load Results</h3>
+            <p>There was an error loading your interview results. Please try again.</p>
+            <button class="btn btn-primary" id="retry-results">
+                <i class="fas fa-redo"></i>
+                <span>Retry</span>
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/js/results.js"></script>
+{% endblock %}
+

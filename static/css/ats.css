@@ -1,0 +1,45 @@
+/* ATS Page Styles - keep existing color palette */
+
+.back-link { display:inline-flex; align-items:center; gap:8px; color: var(--text-secondary); margin-bottom: var(--spacing-4); }
+.back-link:hover { color: var(--primary-color); text-decoration: none; }
+
+.ats-grid { display: grid; grid-template-columns: 2fr 1fr; gap: var(--spacing-6); }
+
+.ats-card { background: var(--surface-color); border:1px solid var(--border-color); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); }
+.ats-card-header { padding: var(--spacing-6); border-bottom:1px solid var(--border-color); background-color: var(--background-color); }
+.ats-card-header h1 { font-size: var(--font-size-3xl); font-weight: 700; margin-bottom: var(--spacing-2); }
+.ats-card-header .subtitle { color: var(--text-secondary); }
+
+.ats-form { padding: var(--spacing-6); display: flex; flex-direction: column; gap: var(--spacing-6); }
+
+.form-group { display:flex; flex-direction: column; gap: var(--spacing-2); }
+.required { color: var(--danger-color); }
+
+.dropzone { display:flex; align-items:center; justify-content:center; gap: var(--spacing-4); border:2px dashed var(--border-color); border-radius: var(--radius-xl); padding: var(--spacing-12) var(--spacing-6); cursor:pointer; background: linear-gradient(180deg, rgba(248,249,250,0.8), #ffffff 60%); transition: all var(--transition-normal); }
+.dropzone:hover { border-color: var(--primary-color); background:#ffffff; box-shadow: var(--shadow-sm); }
+.dz-icon { font-size: 2rem; color: var(--primary-color); }
+.dz-text { text-align:center; color: var(--text-secondary); }
+.dz-text strong { color: var(--text-primary); }
+.dz-sub { font-size: var(--font-size-sm); color: var(--text-muted); }
+
+.ats-progress { margin-top: var(--spacing-4); }
+.ats-progress .progress-bar { width: 100%; height: 8px; background: var(--border-color); border-radius: var(--radius-lg); overflow:hidden; }
+.ats-progress .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--primary-color), var(--success-color)); transition: width var(--transition-normal); }
+.ats-progress .progress-text { margin-top: var(--spacing-2); color: var(--text-secondary); font-weight: 500; }
+
+.ats-side { display:flex; flex-direction: column; gap: var(--spacing-6); }
+.side-card { background: var(--surface-color); border:1px solid var(--border-color); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); padding: var(--spacing-6); }
+.side-card h4 { margin-bottom: var(--spacing-3); font-weight: 600; }
+.checklist, .bullets { list-style: none; display:flex; flex-direction: column; gap: 10px; color: var(--text-secondary); }
+.checklist i { color: var(--success-color); }
+.bullets i { color: var(--primary-color); }
+
+.result-card { background: var(--surface-color); border:1px solid var(--border-color); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); padding: var(--spacing-6); }
+.result-card .score { font-size: var(--font-size-3xl); font-weight: 700; color: var(--primary-color); margin-bottom: var(--spacing-2); }
+.result-card .skills { display:flex; flex-wrap: wrap; gap: 8px; margin-top: var(--spacing-3); }
+.chip { padding: 4px 10px; border-radius: 999px; font-size: 12px; border:1px solid var(--border-color); background:#fff; }
+.chip.good { background:#d4edda; color:#155724; border-color: #c3e6cb; }
+.chip.missing { background:#f8d7da; color:#721c24; border-color: #f5c6cb; }
+
+@media (max-width: 1024px) { .ats-grid { grid-template-columns: 1fr; } }
+

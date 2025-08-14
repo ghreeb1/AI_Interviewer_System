@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Upload CV - AI Interviewer{% endblock %}
+
+{% block extra_css %}
+<link href="/static/css/upload.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="upload-section">
+        <div class="upload-header">
+            <h1>Welcome to AI Interviewer</h1>
+            <p class="subtitle">Upload your CV to start your personalized interview experience</p>
+        </div>
+
+        <!-- Centered Upload Card -->
+        <div class="upload-card upload-card-centered">
+            <div class="upload-area" id="upload-area">
+                <div class="upload-icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <h3>Drop your CV here or click to browse</h3>
+                <p>Supports PDF, DOCX, and TXT files (max 10MB)</p>
+                <input type="file" id="cv-file-input" accept=".pdf,.docx,.txt" hidden>
+                <button class="btn btn-primary" id="browse-btn">
+                    <i class="fas fa-folder-open"></i>
+                    Browse Files
+                </button>
+                
+            </div>
+
+            <div class="upload-progress" id="upload-progress" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text" id="progress-text">Uploading...</p>
+            </div>
+
+            <div class="upload-success" id="upload-success" style="display: none;">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3>CV Uploaded Successfully!</h3>
+                <div class="cv-summary" id="cv-summary"></div>
+                <button class="btn btn-success" id="start-interview-btn">
+                    <i class="fas fa-play"></i>
+                    Start Interview
+                </button>
+            </div>
+        </div>
+
+        <!-- Secondary CTA below card -->
+        <div class="ats-cta-section">
+            <a class="ats-cta-btn" href="/ats">
+                <i class="fas fa-clipboard-check"></i>
+                <span>Try ATS CV Assessment</span>
+            </a>
+        </div>
+
+        <!-- What to Expect -->
+        <div class="features-section">
+            <h2>What to Expect</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Questions</h3>
+                    <p>Personalized interview questions based on your CV and experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Voice Interaction</h3>
+                    <p>Natural voice-to-voice conversation with real-time speech processing</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Behavior Analysis</h3>
+                    <p>Computer vision analysis of your posture, eye contact, and engagement</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>15-Minute Sessions</h3>
+                    <p>Focused interview sessions with comprehensive feedback and insights</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="/static/js/upload.js"></script>
+{% endblock %}
+

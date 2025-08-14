@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-labelledby="title desc" role="img">
+  <title>SMART VIEW</title>
+  <desc>Brand logo: simple eye icon representing viewing</desc>
+  
+  <!-- Simple eye icon -->
+  <g transform="translate(40,40)">
+    <!-- Eye outline -->
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="none" stroke="#3B82F6" stroke-width="3"/>
+    
+    <!-- Eye pupil -->
+    <circle cx="0" cy="0" r="8" fill="#3B82F6"/>
+    
+    <!-- Eye highlight -->
+    <circle cx="-3" cy="-3" r="3" fill="#ffffff" opacity="0.8"/>
+  </g>
+</svg>
+
+

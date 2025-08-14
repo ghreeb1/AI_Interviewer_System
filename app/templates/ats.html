@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}ATS CV Assessment - AI Interviewer{% endblock %}
+
+{% block extra_css %}
+<link href="/static/css/ats.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    <div class="ats-grid">
+        <!-- Left: Form Card -->
+        <div class="ats-card">
+            <div class="ats-card-header">
+                <h1>ATS CV Assessment</h1>
+                <p class="subtitle">Upload CV and analyze compatibility with job requirements</p>
+            </div>
+
+            <form id="ats-form" class="ats-form" novalidate>
+                <div class="form-group">
+                    <label>Upload CV <span class="required">*</span></label>
+                    <div class="dropzone" id="ats-dropzone">
+                        <div class="dz-icon"><i class="fas fa-upload"></i></div>
+                        <div class="dz-text">
+                            <strong>Click to upload CV</strong>
+                            <div class="dz-sub">PDF, DOCX, TXT</div>
+                        </div>
+                        <input type="file" id="ats-file" accept=".pdf,.docx,.txt" hidden>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="candidate-name">Candidate Name (Optional)</label>
+                    <input id="candidate-name" type="text" placeholder="Enter candidate name">
+                </div>
+
+                <div class="form-group">
+                    <label for="job-description">Job Description <span class="required">*</span></label>
+                    <textarea id="job-description" rows="5" placeholder="Enter job description and required skills..."></textarea>
+                </div>
+
+                <button id="start-ats" type="button" class="btn btn-primary" disabled>
+                    <i class="fas fa-play"></i>
+                    Start Analysis
+                </button>
+
+                <div id="ats-progress" class="ats-progress" style="display:none;">
+                    <div class="progress-bar"><div class="progress-fill" id="ats-progress-fill"></div></div>
+                    <div class="progress-text" id="ats-progress-text">Analyzing...</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Right: Requirements and Output -->
+        <div class="ats-side">
+            <div class="side-card">
+                <h4>Analysis Requirements</h4>
+                <ul class="checklist">
+                    <li><i class="fas fa-check-circle"></i> CV upload required</li>
+                    <li><i class="fas fa-check-circle"></i> Job description required</li>
+                    <li><i class="fas fa-check-circle"></i> Instant and accurate analysis</li>
+                </ul>
+            </div>
+
+            <div class="side-card">
+                <h4>What You'll Get</h4>
+                <ul class="bullets">
+                    <li><i class="fas fa-gauge"></i> ATS Compatibility Score</li>
+                    <li><i class="fas fa-list-check"></i> Skills Analysis</li>
+                    <li><i class="fas fa-lightbulb"></i> Improvement Recommendations</li>
+                </ul>
+            </div>
+
+            <div id="ats-result" class="result-card" style="display:none;"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="/static/js/ats.js"></script>
+{% endblock %}
+
+

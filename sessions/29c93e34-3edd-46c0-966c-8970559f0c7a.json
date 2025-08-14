@@ -1,0 +1,166 @@
+{
+  "session_id": "29c93e34-3edd-46c0-966c-8970559f0c7a",
+  "status": "completed",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)  \n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)  \n• Python, PyTorch, TensorFlow, Scikit -learn  • FastAPI, Docker, Git, AWS  \n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022  \n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal — AI Caregiver Assistant  \n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n• Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n• Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n• Programming: Python  \n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n• Tools: Docker, Git, AWS, CI/CD Pipelines  \n• Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Communication",
+      "Docker",
+      "Machine Learning",
+      "Pytorch",
+      "Agile",
+      "Deep Learning",
+      "Git",
+      "Flask",
+      "Sql",
+      "Python",
+      "Numpy",
+      "Matplotlib",
+      "Pandas",
+      "Aws",
+      "Artificial Intelligence",
+      "Leadership",
+      "Tensorflow",
+      "Mysql",
+      "Mongodb"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": "2025-08-14T18:30:04.164670"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Hello! Welcome to the virtual interview. Tell me about yourself and your background.",
+      "timestamp": "2025-08-14T18:30:07.843488",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "Hello! I’m Mohamed Khaled, a software developer with a focus on AI and Machine Learning. I’ve built projects like chatbots and health emergency platforms, and I enjoy creating practical solutions that help people.",
+      "timestamp": "2025-08-14T18:31:08.776294",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you have some exciting experience in building practical AI and ML solutions. Can you tell me more about what inspired you to focus on these areas of software development?",
+      "timestamp": "2025-08-14T18:31:24.665758",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I was inspired by the potential of AI and ML to solve real-world problems and improve lives, especially in healthcare and accessibility.",
+      "timestamp": "2025-08-14T18:32:02.039889",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's fascinating! It sounds like you have a strong passion for using technology to make a positive impact. Can you elaborate on what specific challenges or issues in healthcare or accessibility motivated you to develop these types of projects?",
+      "timestamp": "2025-08-14T18:32:09.819829",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I was motivated by seeing how delays in medical help and lack of accessible tools can harm patients, so I wanted to create solutions that offer faster support and easier communication.",
+      "timestamp": "2025-08-14T18:32:36.938292",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you're driven by a desire to make a tangible difference in people's lives. Can you walk me through how your experience as an AI & Machine Learning Engineer has helped you develop solutions that can be scaled up or replicated for broader impact?",
+      "timestamp": "2025-08-14T18:32:45.635314",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "ChatGPT said:  My AI & ML experience helped me design modular, data-driven solutions that can be adapted to different contexts, making them easy to scale and replicate for wider use",
+      "timestamp": "2025-08-14T18:33:15.787248",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you've had a significant impact with your modular designs. Can you give an example of a specific project where you had to adapt your solution to meet the unique needs of a particular context or organization?",
+      "timestamp": "2025-08-14T18:33:24.252739",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I adapted a caregiver–patient chatbot to support multiple languages and voice interaction, making it accessible for users with different needs and abilities.",
+      "timestamp": "2025-08-14T18:33:50.186054",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's fascinating. It sounds like you've been able to incorporate accessibility features into your solutions. How do you ensure that these adaptations not only meet the unique needs of a particular context or organization but also maintain their effectiveness and efficiency over time?",
+      "timestamp": "2025-08-14T18:33:58.743307",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I ensure this by continuous user feedback, regular performance monitoring, and iterative updates to keep the solution effective and efficient.",
+      "timestamp": "2025-08-14T18:34:25.761610",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's a great approach to ensuring long-term effectiveness. Can you walk me through your process for gathering and incorporating continuous user feedback into your AI/ML solutions? How do you balance the need for data-driven insights with the potential risks of over-reliance on user input?",
+      "timestamp": "2025-08-14T18:34:34.936642",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I combine usage analytics with targeted user surveys, validating feedback against performance metrics to guide improvements while avoiding changes that could harm overall system reliability",
+      "timestamp": "2025-08-14T18:35:02.386052",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you have a robust approach to incorporating user feedback into your solutions. Can you elaborate on how you determine which users to target with surveys versus relying solely on usage analytics?",
+      "timestamp": "2025-08-14T18:35:09.713182",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I target surveys to active and diverse user groups who represent different needs, while using analytics for broader trends across the entire user base.",
+      "timestamp": "2025-08-14T18:35:34.197588",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you're able to strike a balance between targeting specific users with surveys and getting a sense of overall trends through analytics. Can you tell me more about how you handle situations where the feedback from these diverse user groups might be conflicting or contradictory?",
+      "timestamp": "2025-08-14T18:35:42.814036",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-14T18:30:07.839982",
+  "end_time": "2025-08-14T18:36:47.524459",
+  "duration_seconds": 399,
+  "max_duration_seconds": 900,
+  "questions": [
+    "Tell me about yourself and your background.",
+    "How do you handle working under pressure?",
+    "What challenges have you faced while working with Communication?",
+    "What challenges have you faced while working with Machine Learning?",
+    "Where do you see yourself in 5 years?",
+    "What interests you most about this role?",
+    "What motivates you in your work?",
+    "How have you used Communication in your previous projects?"
+  ],
+  "total_questions": 8,
+  "questions_asked": 8
+}

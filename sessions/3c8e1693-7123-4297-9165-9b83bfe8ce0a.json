@@ -1,0 +1,130 @@
+{
+  "session_id": "3c8e1693-7123-4297-9165-9b83bfe8ce0a",
+  "status": "completed",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)  \n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)  \n• Python, PyTorch, TensorFlow, Scikit -learn  • FastAPI, Docker, Git, AWS  \n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022  \n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal — AI Caregiver Assistant  \n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n• Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n• Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n• Programming: Python  \n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n• Tools: Docker, Git, AWS, CI/CD Pipelines  \n• Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Sql",
+      "Mysql",
+      "Leadership",
+      "Tensorflow",
+      "Deep Learning",
+      "Mongodb",
+      "Aws",
+      "Docker",
+      "Communication",
+      "Python",
+      "Git",
+      "Matplotlib",
+      "Pytorch",
+      "Numpy",
+      "Agile",
+      "Flask",
+      "Pandas"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": "2025-08-14T18:54:11.836197"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Hello! Welcome to the virtual interview. Can you tell me about your experience with Machine Learning?",
+      "timestamp": "2025-08-14T18:54:15.143212",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I have hands-on experience in building and deploying ML models, focusing on NLP, computer vision, and RAG-based systems, with an emphasis on real-world applications and scalability.",
+      "timestamp": "2025-08-14T18:56:17.553071",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's impressive! It sounds like you've had some great experience with building scalable ML models. Can you elaborate a bit more on what you mean by \"RAG-based systems\" - are those related to any specific projects or technologies you've worked with?",
+      "timestamp": "2025-08-14T18:56:35.272648",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "ChatGPT said:  Yes, RAG-based systems combine retrieval from a knowledge base with generative AI, and I’ve applied them in chatbot projects to deliver accurate, context-aware answers in healthcare and accessibility solutions.",
+      "timestamp": "2025-08-14T18:57:13.055337",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's fascinating! It sounds like you've had some great experience applying RAG-based systems in real-world projects. Can you tell me more about how you measure the success of these chatbot projects, particularly in terms of user engagement and satisfaction?",
+      "timestamp": "2025-08-14T18:57:21.934012",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I measure success using metrics like session length, return rate, and task completion, alongside user surveys to track satisfaction and usefulness.",
+      "timestamp": "2025-08-14T18:57:43.691135",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "Can you walk me through your process for collecting and analyzing user feedback from these chatbot projects? How do you ensure that this feedback is actionable and informs future development and improvement of the systems?",
+      "timestamp": "2025-08-14T18:57:59.963958",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "ChatGPT said:  I gather feedback through in-chat prompts, post-session surveys, and usage analytics, then categorize it to spot patterns and prioritize updates that directly enhance user experience.",
+      "timestamp": "2025-08-14T18:58:23.365536",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you have a structured approach to collecting and analyzing user feedback. Can you tell me more about how you balance the need for actionable insights with the potential risks of over-customizing the chatbot's responses based on individual user preferences?",
+      "timestamp": "2025-08-14T18:58:32.704519",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I focus on identifying common trends across many users rather than tailoring heavily to individuals, ensuring improvements enhance the overall experience without losing the chatbot’s core functionality and consistency.",
+      "timestamp": "2025-08-14T18:58:55.579669",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's a great insight into your approach to balancing individual user preferences with the need for a cohesive overall experience. Can you elaborate on how you determine what common trends across many users are, and what specific metrics or data points do you use to identify them?",
+      "timestamp": "2025-08-14T18:59:05.042354",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-14T18:54:15.139223",
+  "end_time": "2025-08-14T19:01:11.787931",
+  "duration_seconds": 416,
+  "max_duration_seconds": 900,
+  "questions": [
+    "Can you tell me about your experience with Machine Learning?",
+    "How do you stay updated with industry trends?",
+    "How have you used Artificial Intelligence in your previous projects?",
+    "How have you used Sql in your previous projects?",
+    "Why are you looking for a new opportunity?",
+    "How have you used Machine Learning in your previous projects?",
+    "Describe a challenging project you've worked on.",
+    "What challenges have you faced while working with Artificial Intelligence?"
+  ],
+  "total_questions": 8,
+  "questions_asked": 5
+}

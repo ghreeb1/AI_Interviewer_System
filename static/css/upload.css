@@ -1,0 +1,382 @@
+/* Upload Page Styles */
+
+.upload-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.upload-header {
+    text-align: center;
+    margin-bottom: var(--spacing-8);
+}
+
+.upload-header h1 {
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-4);
+}
+
+.subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Upload Card */
+.upload-card {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    margin-bottom: var(--spacing-8);
+}
+
+/* Centered single-card layout resembling the provided mock */
+.upload-card-centered {
+    max-width: 720px; /* wider rectangle */
+    margin: 0 auto;
+}
+
+.upload-area {
+    padding: var(--spacing-8) var(--spacing-12); /* less vertical padding */
+    text-align: center;
+    border: 2px dashed var(--border-color);
+    margin: var(--spacing-6);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(248,249,250,0.8), #ffffff 60%);
+    min-height: 180px; /* rectangular feel */
+}
+
+.upload-area:hover {
+    border-color: var(--primary-color);
+    background-color: #ffffff;
+    box-shadow: var(--shadow-sm);
+}
+
+.upload-area.dragover {
+    border-color: var(--primary-color);
+    background-color: #ffffff;
+    transform: scale(1.02);
+    box-shadow: var(--shadow-md);
+}
+
+.upload-icon {
+    font-size: 4rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-4);
+}
+
+.upload-area h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.upload-area p {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-6);
+}
+
+/* Upload Progress */
+.upload-progress {
+    padding: var(--spacing-8);
+    text-align: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: var(--spacing-4);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--success-color));
+    border-radius: var(--radius-lg);
+    transition: width var(--transition-normal);
+    width: 0%;
+}
+
+.progress-text {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Upload Success */
+.upload-success {
+    padding: var(--spacing-8);
+    text-align: center;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: var(--success-color);
+    margin-bottom: var(--spacing-4);
+}
+
+.upload-success h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-4);
+}
+
+.upload-success .btn { min-width: 220px; }
+
+.cv-summary {
+    background-color: #ffffff;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-4);
+    margin-bottom: var(--spacing-6);
+    text-align: left;
+    border: 1px solid var(--border-color);
+}
+
+.cv-summary-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-2) 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cv-summary-item:last-child {
+    border-bottom: none;
+}
+
+.cv-summary-item i {
+    color: var(--primary-color);
+    width: 20px;
+}
+
+.cv-summary-label {
+    font-weight: 500;
+    color: var(--text-primary);
+    min-width: 100px;
+}
+
+.cv-summary-value {
+    color: var(--text-secondary);
+}
+
+/* Features Section */
+.features-section {
+    margin-bottom: var(--spacing-12);
+}
+
+.features-section h2 {
+    text-align: center;
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-8);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-6);
+}
+
+.feature-card {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-6);
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-4);
+}
+
+.feature-card h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.feature-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Privacy Notice */
+.privacy-notice {
+    background-color: var(--surface-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-8);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-6);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+}
+
+/* New two-column layout for upload + features */
+/* Deprecated two-column layout removed on home to match new hero */
+.upload-layout { display: contents; }
+
+/* Ensure features look good in sidebar */
+.upload-layout .features-section h2 {
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .upload-layout { display: contents; }
+}
+
+/* Force white theme even in dark mode preference */
+@media (prefers-color-scheme: dark) {
+    .upload-area:hover { background-color: #ffffff; }
+}
+
+.privacy-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.privacy-content h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.privacy-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* File Input Styling */
+#cv-file-input {
+    display: none;
+}
+
+/* ATS CTA Button Styling */
+.ats-cta-section {
+    text-align: center;
+    margin-top: var(--spacing-6);
+    margin-bottom: var(--spacing-12);
+}
+
+.ats-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-4) var(--spacing-8);
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 2px solid #dee2e6;
+    border-radius: var(--radius-xl);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+}
+
+.ats-cta-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: left 0.5s;
+}
+
+.ats-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+}
+
+.ats-cta-btn:hover::before {
+    left: 100%;
+}
+
+.ats-cta-btn i {
+    font-size: var(--font-size-lg);
+    color: inherit;
+}
+
+.ats-cta-btn span {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .upload-header h1 {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .upload-area {
+        padding: var(--spacing-8);
+        margin: var(--spacing-4);
+    }
+    
+    .upload-icon {
+        font-size: 3rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-4);
+    }
+    
+    .privacy-notice {
+        flex-direction: column;
+        text-align: center;
+        padding: var(--spacing-6);
+    }
+    
+    .privacy-icon {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .upload-area {
+        padding: var(--spacing-6);
+    }
+    
+    .upload-area h3 {
+        font-size: var(--font-size-lg);
+    }
+    
+    .feature-card {
+        padding: var(--spacing-4);
+    }
+    
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+}
+

@@ -1,0 +1,9 @@
+fastapi==0.103.2
+uvicorn[standard]==0.23.2
+Jinja2==3.1.2
+aiofiles==23.1.0
+python-multipart==0.0.6
+pydantic==1.10.13
+python-docx==0.8.11
+PyPDF2==3.0.1
+requests==2.31.0

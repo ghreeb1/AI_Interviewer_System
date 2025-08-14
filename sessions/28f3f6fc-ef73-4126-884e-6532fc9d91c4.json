@@ -1,0 +1,130 @@
+{
+  "session_id": "28f3f6fc-ef73-4126-884e-6532fc9d91c4",
+  "status": "completed",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)  \n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)  \n• Python, PyTorch, TensorFlow, Scikit -learn  • FastAPI, Docker, Git, AWS  \n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022  \n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal — AI Caregiver Assistant  \n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n• Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n• Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n• Programming: Python  \n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n• Tools: Docker, Git, AWS, CI/CD Pipelines  \n• Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Docker",
+      "Machine Learning",
+      "Agile",
+      "Mysql",
+      "Tensorflow",
+      "Mongodb",
+      "Git",
+      "Flask",
+      "Communication",
+      "Leadership",
+      "Deep Learning",
+      "Matplotlib",
+      "Artificial Intelligence",
+      "Pytorch",
+      "Aws",
+      "Numpy",
+      "Pandas",
+      "Sql",
+      "Python"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": "2025-08-14T12:57:45.105220"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Let's begin the interview. First, please introduce yourself.",
+      "timestamp": "2025-08-14T12:57:48.214771",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "im mohamed khaled ml engineer",
+      "timestamp": "2025-08-14T12:58:28.212264",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "Nice to meet you, Mohamed Khaled! Can you tell me a little bit about your academic background and how it has prepared you for a career in AI & Machine Learning engineering?",
+      "timestamp": "2025-08-14T12:58:43.634719",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I hold a solid academic foundation in computer science and engineering, where I studied core subjects like programming, algorithms, data structures, and mathematics, which are essential for AI and Machine Learning. During my studies, I focused on areas such as statistics, linear algebra, and optimization, which gave me the theoretical basis to understand and build machine learning models.  I also worked on multiple academic projects involving computer vision, natural language processing, and dee",
+      "timestamp": "2025-08-14T12:59:45.845238",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "That's a great overview of your academic background, Mohamed Khaled! Can you tell me more about how you applied theoretical concepts to practical problems in your projects, and what kind of outcomes or insights did you achieve?",
+      "timestamp": "2025-08-14T12:59:53.320614",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "In my projects, I turned theory into real results. For example, I used convolutional neural networks from my studies to train a YOLOv8 object detection model, improving accuracy by 15%. In another project, I applied NLP concepts like embeddings and attention mechanisms to build a smarter chatbot that gave more relevant answers. These outcomes proved how theory can directly create measurable improvements in AI solutions.",
+      "timestamp": "2025-08-14T13:00:37.672115",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It sounds like you have some impressive practical experience with applying theoretical concepts to real-world problems, Mohamed Khaled. Can you walk me through your process when selecting and evaluating the most suitable machine learning algorithm for a particular problem? What factors do you consider when making this decision?",
+      "timestamp": "2025-08-14T13:00:46.878333",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "I choose algorithms by first defining the problem type and analyzing the data’s size, quality, and features. Then I balance accuracy, interpretability, and speed, testing multiple models with cross-validation. I pick the one that delivers strong, reliable performance while meeting project constraints.",
+      "timestamp": "2025-08-14T13:01:31.848855",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "It seems like you've applied a systematic approach to selecting machine learning algorithms for your projects, Mohamed Khaled. Can you elaborate on how you handle scenarios where there isn't enough data available for training or validating a model, and what alternatives do you consider in such cases?",
+      "timestamp": "2025-08-14T13:01:41.418080",
+      "audio_duration": null
+    },
+    {
+      "role": "candidate",
+      "content": "When there isn’t enough data, I first try data augmentation, synthetic data generation, or transfer learning with pre-trained models to leverage existing knowledge. I also explore collecting more data from alternative sources or using web scraping and public datasets. If expanding data isn’t feasible, I switch to algorithms that perform well with small datasets, like decision trees or Bayesian methods, and apply techniques like cross-validation to maximize the use of available data.",
+      "timestamp": "2025-08-14T13:02:34.687127",
+      "audio_duration": null
+    },
+    {
+      "role": "interviewer",
+      "content": "You mentioned using transfer learning as an alternative when there isn't enough data. Can you explain how you evaluate the suitability of pre-trained models for your specific problem, and what factors influence your decision to adapt them or start from scratch?",
+      "timestamp": "2025-08-14T13:02:43.655020",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-14T12:57:48.212501",
+  "end_time": "2025-08-14T13:02:54.311694",
+  "duration_seconds": 306,
+  "max_duration_seconds": 900,
+  "questions": [
+    "How have you used Machine Learning in your previous projects?",
+    "How do you handle working under pressure?",
+    "How have you used Agile in your previous projects?",
+    "What challenges have you faced while working with Agile?",
+    "What challenges have you faced while working with Docker?",
+    "Can you tell me about your experience with Machine Learning?",
+    "Describe a challenging project you've worked on.",
+    "What motivates you in your work?"
+  ],
+  "total_questions": 8,
+  "questions_asked": 5
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "a4b938e1-6a55-455b-92ac-0fe8061bf1b5",
+  "status": "created",
+  "cv_data": null,
+  "messages": [],
+  "behavior_metrics": [],
+  "start_time": null,
+  "end_time": null,
+  "duration_seconds": 0,
+  "max_duration_seconds": 900,
+  "questions": [],
+  "total_questions": 8,
+  "questions_asked": 0
+}

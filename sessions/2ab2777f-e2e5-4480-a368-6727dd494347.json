@@ -1,0 +1,70 @@
+{
+  "session_id": "2ab2777f-e2e5-4480-a368-6727dd494347",
+  "status": "completed",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)  \n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)  \n• Python, PyTorch, TensorFlow, Scikit -learn  • FastAPI, Docker, Git, AWS  \n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022  \n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal — AI Caregiver Assistant  \n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n• Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n• Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n• Programming: Python  \n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n• Tools: Docker, Git, AWS, CI/CD Pipelines  \n• Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Artificial Intelligence",
+      "Agile",
+      "Mysql",
+      "Flask",
+      "Git",
+      "Sql",
+      "Mongodb",
+      "Aws",
+      "Pytorch",
+      "Deep Learning",
+      "Tensorflow",
+      "Pandas",
+      "Leadership",
+      "Python",
+      "Machine Learning",
+      "Communication",
+      "Matplotlib",
+      "Docker",
+      "Numpy"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": "2025-08-14T12:19:27.456696"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Hello, I'm your AI interviewer.\n\nTo begin, please introduce yourself—your background, key skills, and recent work.\n\nWe'll keep this to about 15 minutes. After your introduction, we'll go through 8 questions.\n\nHere are the remaining interview questions planned:\n1. What challenges have you faced while working with Artificial Intelligence?\n2. What are your greatest strengths?\n3. Describe a time when you had to learn something new quickly.\n4. How have you used Agile in your previous projects?\n5. How do you handle working under pressure?\n6. What motivates you in your work?\n7. How have you used Mysql in your previous projects?\n8. Where do you see yourself in 5 years?",
+      "timestamp": "2025-08-14T12:19:30.564220",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-14T12:19:30.560476",
+  "end_time": "2025-08-14T12:20:21.120004",
+  "duration_seconds": 50,
+  "max_duration_seconds": 900,
+  "questions": [
+    "What challenges have you faced while working with Artificial Intelligence?",
+    "What are your greatest strengths?",
+    "Describe a time when you had to learn something new quickly.",
+    "How have you used Agile in your previous projects?",
+    "How do you handle working under pressure?",
+    "What motivates you in your work?",
+    "How have you used Mysql in your previous projects?",
+    "Where do you see yourself in 5 years?"
+  ],
+  "total_questions": 8,
+  "questions_asked": 0
+}

@@ -1,0 +1,59 @@
+{
+  "session_id": "cd4b208d-98e2-410a-b575-a904aaf4a106",
+  "status": "active",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_CV_ATS_Optimized_100.docx",
+    "content": "MOHAMED KHALED GHAREEB\nAI & Machine Learning Engineer | NLP | Computer Vision \nLinkedIn: linkedin.com/in/mohamed-khaled-3a9021263| GitHub: github.com/ghreeb1 | Email: qq11gharipqq11@gmail.com\nPROFESSIONAL SUMMARY\nResults-driven AI & Machine Learning Engineer with strong expertise in developing and deploying AI-powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. Adept at solving complex problems, optimizing performance, and delivering innovative projects in agile environments. Passionate about leveraging AI to create impactful solutions.\nCORE COMPETENCIES\n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)\n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)\n• Python, PyTorch, TensorFlow, Scikit-learn  • FastAPI, Docker, Git, AWS\n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)\nEDUCATION\nBachelor of Artificial Intelligence, Menoufia University\nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)\nExpected Graduation: January 2026\nCERTIFICATIONS & TRAINING\n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022\n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory\nKEY PROJECTS\nMemorixal — AI Caregiver Assistant\n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with memory-impaired patients.\n• Integrated document ingestion, semantic search, and a web interface, improving response relevance by 40%.\n\nCharacter Simulator RAG System\n• Built a scalable character simulation system supporting multi-character interactions using LangChain & FAISS.\n\nEye Disease Detection\n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.\n\nTherapist Chatbot\n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by 4 seconds.\nTECHNICAL SKILLS\n• Programming: Python\n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask\n• Tools: Docker, Git, AWS, CI/CD Pipelines\n• Databases: MySQL, MongoDB\nSOFT SKILLS\nLeadership, Problem-Solving, Agile Team Collaboration, Communication\nLANGUAGES\nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Flask",
+      "Sql",
+      "Matplotlib",
+      "Scikit-Learn",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Pytorch",
+      "Deep Learning",
+      "Communication",
+      "Aws",
+      "Tensorflow",
+      "Docker",
+      "Numpy",
+      "Python",
+      "Mysql",
+      "Git",
+      "Mongodb",
+      "Pandas",
+      "Agile",
+      "Leadership"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results-driven AI & Machine Learning Engineer with strong expertise in developing and deploying AI-powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. Adept at solving complex problems, optimizing performance, and delivering innovative projects in agile environments. Passionate about leveraging AI to create impactful solutions.",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem-Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed-khaled-3a9021263"
+    },
+    "parsed_at": "2025-08-11T19:36:05.185529"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Let's get started with the interview. Based on your CV and our recent conversation, I'd like to ask:\n\nCan you elaborate on how you would apply your expertise in MLOps to a real-world scenario where data quality and preparation are critical factors? How do you ensure that AI models are optimized for production environments?\n\n(Note: I'll be playing the role of an interviewer, so feel free to respond as if you were in a real interview.)",
+      "timestamp": "2025-08-11T19:36:25.027277",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-11T19:36:09.402878",
+  "end_time": null,
+  "duration_seconds": 0,
+  "max_duration_seconds": 900
+}

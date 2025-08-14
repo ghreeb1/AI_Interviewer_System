@@ -1,0 +1,43 @@
+{
+  "session_id": "695ccbd7-592a-4e9a-bcb6-d04ccd1607d4",
+  "status": "active",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n\u2022 Machine Learning (Supervised & Unsupervised)  \u2022 Deep Learning (CNN, RNN, Transformers)  \n\u2022 Computer Vision (Image Processing, Object Detection)  \u2022 NLP (LLMs, RAG, Chatbots)  \n\u2022 Python, PyTorch, TensorFlow, Scikit -learn  \u2022 FastAPI, Docker, Git, AWS  \n\u2022 Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n\u2022 Artificial Intelligence Summer Training \u2013 National Telecommunication Institute (NTI), 2022  \n\u2022 Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal \u2014 AI Caregiver Assistant  \n\u2022 Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n\u2022 Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n\u2022 Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n\u2022 Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n\u2022 Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n\u2022 Programming: Python  \n\u2022 Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n\u2022 Tools: Docker, Git, AWS, CI/CD Pipelines  \n\u2022 Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Python",
+      "Artificial Intelligence",
+      "Communication",
+      "Deep Learning",
+      "Machine Learning",
+      "Sql",
+      "Aws",
+      "Docker",
+      "Mysql",
+      "Leadership",
+      "Mongodb",
+      "Pandas",
+      "Numpy",
+      "Git",
+      "Pytorch",
+      "Flask",
+      "Matplotlib",
+      "Agile",
+      "Tensorflow"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "\u2022 Artificial Intelligence Summer Training \u2013 National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "\u2022 Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": 

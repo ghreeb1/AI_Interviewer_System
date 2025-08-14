@@ -1,0 +1,70 @@
+{
+  "session_id": "97c53345-09a9-4656-97c8-0a88906d9494",
+  "status": "active",
+  "cv_data": {
+    "filename": "Mohamed_Khaled_ML.pdf",
+    "content": "MOHAMED KHALED GHAREEB  \nAI & Machine Learning Engineer | NLP | Computer Vision  \nLinkedIn: linkedin.com/in/mohamed -khaled -3a9021263 | GitHub: github.com/ghreeb1  | Email: \nqq11gharipqq11@gmail.com  \nPROFESSIONAL SUMMARY  \nResults -driven AI & Machine Learning Engineer with strong expertise in developing and \ndeploying AI -powered solutions. Proficient in NLP, Computer Vision, Deep Learning, and MLOps. \nAdept at solving complex problems, optimizing performance, and delivering innovative projects \nin agile environments. Passionate about leveraging AI to create impactful solutions.  \nCORE COMPETENCIES  \n• Machine Learning (Supervised & Unsupervised)  • Deep Learning (CNN, RNN, Transformers)  \n• Computer Vision (Image Processing, Object Detection)  • NLP (LLMs, RAG, Chatbots)  \n• Python, PyTorch, TensorFlow, Scikit -learn  • FastAPI, Docker, Git, AWS  \n• Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn)  \nEDUCATION  \nBachelor of Artificial Intelligence, Menoufia University  \nSpecialization: Machine Intelligence | GPA: 2.71/4.0 (Good)  \nExpected Graduation: January 2026  \nCERTIFICATIONS & TRAINING  \n• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022  \n• Odoo ERP Training, 2024: AI Integration, Financial Transactions, Sales & Inventory  \nKEY PROJECTS  \nMemorixal — AI Caregiver Assistant  \n• Designed and deployed an AI assistant enabling caregivers to communicate effectively with \nmemory -impaired patients.  \n• Integrated document ingestion, semantic search, and a web interface, improving response \nrelevance by 40%.  \n \nCharacter Simulator RAG System  \n• Built a scalable character simulation system supporting multi -character interactions using \nLangChain & FAISS.  \n \nEye Disease Detection  \n• Trained a CNN model achieving 92% validation accuracy for classifying eye diseases.  \n \nTherapist Chatbot  \n• Developed a therapeutic chatbot improving user engagement by 30% and reducing latency by \n4 seconds.  \nTECHNICAL SKILLS  \n• Programming: Python  \n• Frameworks: PyTorch, TensorFlow, FastAPI, Flask  \n• Tools: Docker, Git, AWS, CI/CD Pipelines  \n• Databases: MySQL, MongoDB  \nSOFT SKILLS  \nLeadership, Problem -Solving, Agile Team Collaboration, Communication  \nLANGUAGES  \nEnglish: Advanced (Reading & Writing)",
+    "skills": [
+      "Deep Learning",
+      "Mysql",
+      "Flask",
+      "Communication",
+      "Aws",
+      "Python",
+      "Sql",
+      "Pytorch",
+      "Leadership",
+      "Docker",
+      "Mongodb",
+      "Numpy",
+      "Tensorflow",
+      "Machine Learning",
+      "Pandas",
+      "Agile",
+      "Artificial Intelligence",
+      "Git",
+      "Matplotlib"
+    ],
+    "education": [
+      "Bachelor of Artificial Intelligence, Menoufia University",
+      "CERTIFICATIONS & TRAINING",
+      "• Artificial Intelligence Summer Training – National Telecommunication Institute (NTI), 2022"
+    ],
+    "experience": [
+      "AI & Machine Learning Engineer | NLP | Computer Vision",
+      "Results -driven AI & Machine Learning Engineer with strong expertise in developing and",
+      "• Frameworks: PyTorch, TensorFlow, FastAPI, Flask",
+      "Leadership, Problem -Solving, Agile Team Collaboration, Communication"
+    ],
+    "contact_info": {
+      "email": "qq11gharipqq11@gmail.com",
+      "linkedin": "linkedin.com/in/mohamed"
+    },
+    "parsed_at": "2025-08-14T12:39:59.425043"
+  },
+  "messages": [
+    {
+      "role": "interviewer",
+      "content": "Do you understand me?",
+      "timestamp": "2025-08-14T12:40:03.035407",
+      "audio_duration": null
+    }
+  ],
+  "behavior_metrics": [],
+  "start_time": "2025-08-14T12:40:03.034353",
+  "end_time": null,
+  "duration_seconds": 0,
+  "max_duration_seconds": 900,
+  "questions": [
+    "What motivates you in your work?",
+    "Why are you looking for a new opportunity?",
+    "How have you used Flask in your previous projects?",
+    "What interests you most about this role?",
+    "Tell me about yourself and your background.",
+    "What challenges have you faced while working with Mysql?",
+    "How have you used Mysql in your previous projects?",
+    "Can you tell me about your experience with Deep Learning?"
+  ],
+  "total_questions": 8,
+  "questions_asked": 0
+}
